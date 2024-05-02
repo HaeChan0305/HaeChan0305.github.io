@@ -4,262 +4,149 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Haechan Kim
+    tagline: Researcher / Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: kim.haechan@kaist.ac.kr
+    # phone: 
+    timezone: Daejeon, South Korea
+    # citizenship:
+    website: haechan0305.github.io/ #do not add http://
+    linkedin: haechan-kim-75427a253
+    # xing: alandoe
+    github: HaeChan0305
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Korean
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    summary: |  
+      I am currently double majoring in the School of Computing and the School of Electrical Engineering at KAIST.
+
+      My research and experience have focused on large language models and automatic speech recognition, with topics broadly divided into (1) AI-driven education and (2) AI fairness.
+      While working at Ringle, an English-speaking education startup, I spearheaded the planning and development of an AI-driven engine that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners. 
+      Recognizing the low performance of automatic speech recognition (ASR) for the second language learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle to conduct related research.
+      I constructed a dataset of non-native English learners’ spontaneous speech and analyzed the reasons behind the low ASR performance for the second language learners. The paper about the research is currently under review for {anonymized}.
+      Furthermore, I conducted a course work project proposing a new evaluation benchmark task by attempting to measure the correlation between the knowledge level of large language models and fairness. 
+      I have also worked on projects such as generating 3D mesh from Single-View Multi-object images, winning the best poster awards, and utilizing Generative Adversarial Network (GAN).
+      
+      Currently, I am interested in delving more mathematically into the field of artificial intelligence, especially minority group data augmentation and convex optimization. Therefore, I am taking courses such as <EE326: Introduction to Information Theory and Coding> and <EE531: Statistical Learning Theory>.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: B.S. in School of Computing
+        university: Korea Advanced Institute of Science and Technology (KAIST)
+        time: Mar. 2018 - Present
+
+      - degree: B.S. in School of Electrical Engineering
+        university: Korea Advanced Institute of Science and Technology (KAIST)
+        time: Mar. 2018 - Present
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Natural Language Processing Engineer
+        time: Jul. 2022 - Mar. 2024
+        company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          While working at Ringle, an English-speaking education startup, I spearheaded the planning and development of an AI-driven engine, named <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners.
+            - Defined features related to the English proficiency of learners.
+            - Conducted analysis on both spoken and written language.
+            - Analyzed the performance of ASR for non-native English learners.
+            - Developed sentence structure classification algorithms through part-of-speech (POS) and dependency analysis.
+            - Collected ground truth data for IELTS speaking levels and addressed data imbalance issues through data augmentation.
+            - Conducted feature engineering based on the defined features.
+            - Developed a final prediction model by using the augmented data and the extracted features.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Visiting Researcher
+        time: Mar. 2023 - Mar. 2024
+        company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB), Daejeon</a>
+        details: |
+          Recognizing the low performance of ASR for second language (L2) learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle.
+          I have published a paper about ASR for L2 spontaneous speech as the first author. It is currently under review for {anonymized}.
+          Additionally, I filed two patents under the names &lt;L2 Speaker Annotation System&gt; and &lt;Pronunciation Diagnosis and Learning System&gt;.
+            - Constructed a dataset consisting of 50.04 hours of audio with fully transcribed transcriptions.
+            - Defined new features attributed to ASR errors from L2 speech through linguistic analysis of transcriptions.
+            - Constructed human annotation experiment to measure newly defined features.
+            - Developed the automatic detection system to detect the features.
+            - Improved the performance of state-of-the-art models by fine-tuning with the constructed dataset.
+            - Attempted to synthesize non-native speaker-like audio that can mimic the defined features.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
+        link: "https://github.com/HaeChan0305/MultiDreamer"
+        tagline: "&lt;CS479: Machine Learning for 3D Data&gt; (Best Poster Awards)"  
+        details: |
+          We addressed the existing issue of synthesizing meshes from single-view images containing multiple objects. 
+          We inferred the relative distances between objects using depth maps image segmentation and stable diffusion inpainting, and based on this, we chose an approach to reassemble each synthesized mesh in a 3D scene.
 
-      - title: DevStudio
+      - title: What is the best LLM Chatbot in South Korea?
+        link: "https://github.com/KAIST19/CS475_final_project"
+        tagline: "&lt;CS475: Machine Learning for Natural Language Processing&gt;"
+        details: |
+          The project proposes a new benchmark task for evaluating large language models (LLMs) by demonstrating the correlation between the level of knowledge in LLMs and the degree of bias. 
+          We utilize the concept of markedness and statistical methods, Finghtin' Words method, to measure it.
+          
+      - title: "Turn Over a New Leaf : Face Image Style Transition for FIFA Player"
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "&lt;CS376: Turn Over a New Leaf: Face Image Style Transition for FIFA Player&gt;"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro: 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech"
+        link: 
+        authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Dongyeop Kang, Juho Kim
+        conference: Under Review
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-skills:
-    title: Skills &amp; Proficiency
+#       - name: Javascript & jQuery
+#         level: 98%
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#       - name: Angular
+#         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Angular
-        level: 98%
+#       - name: Ruby on Rails
+#         level: 85%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: Sketch & Photoshop
+#         level: 60%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
