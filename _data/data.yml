@@ -100,22 +100,24 @@ projects:
     assignments:
       - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
         link: "https://github.com/HaeChan0305/MultiDreamer"
-        tagline: "&lt;CS479: Machine Learning for 3D Data&gt; (Best Poster Awards)"  
+        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; (Best Poster Awards)"  
         details: |
           We addressed the existing issue of synthesizing meshes from single-view images containing multiple objects. 
           We inferred the relative distances between objects using depth maps image segmentation and stable diffusion inpainting, and based on this, we chose an approach to reassemble each synthesized mesh in a 3D scene.
 
       - title: What is the best LLM Chatbot in South Korea?
         link: "https://github.com/KAIST19/CS475_final_project"
-        tagline: "&lt;CS475: Machine Learning for Natural Language Processing&gt;"
+        tagline: "&lt;KAIST CS475: Machine Learning for Natural Language Processing&gt;"
         details: |
           The project proposes a new benchmark task for evaluating large language models (LLMs) by demonstrating the correlation between the level of knowledge in LLMs and the degree of bias. 
           We utilize the concept of markedness and statistical methods, Finghtin' Words method, to measure it.
           
       - title: "Turn Over a New Leaf : Face Image Style Transition for FIFA Player"
         link: "https://drive.google.com/file/d/1yefGh3IzzdUm7EAYrlPVTB6MIOu0maT7/view?usp=sharing"
-        tagline: "&lt;CS376: Turn Over a New Leaf: Face Image Style Transition for FIFA Player&gt;"
-
+        tagline: "&lt;KAIST CS376: Machine Learning&gt;"
+        details: |
+          This project involves applying StyleGAN at the application level. We took real soccer players' images as inputs and carried out the task of transforming them into images in the style of FIFA online game graphics.
+          Throughout this project, I acquired an understanding of GANs and learned techniques for efficient training by freezing each layer of the GAN.
 
 publications:
     title: Publications
