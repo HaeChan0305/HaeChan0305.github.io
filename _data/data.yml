@@ -36,9 +36,6 @@ sidebar:
         - idiom: Korean
           level: Native
 
-        - idiom: English
-          level: Professional
-
 career-profile:
     title: Career Profile
     summary: |  
@@ -112,12 +109,51 @@ projects:
           The project proposes a new benchmark task for evaluating large language models (LLMs) by demonstrating the correlation between the level of knowledge in LLMs and the degree of bias. 
           We utilize the concept of markedness and statistical methods, Finghtin' Words method, to measure it.
           
+      - title: "Accurate long-form audio transcription via voice activity detection and forced alignment"
+        link: "https://github.com/HaeChan0305/CS470-Project-LongFormAudioASR"
+        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
+        details: |
+         This project addresses the issue of low performance in automatic speech recognition (ASR) for long-form spontaneous speech. 
+         By employing force alignment, we identified the positions of silence and filler words in the original audio and either removed them or replaced them with shorter silences, resulting in a 56% improvement in ASR performance.
+      
       - title: "Turn Over a New Leaf : Face Image Style Transition for FIFA Player"
         link: "https://drive.google.com/file/d/1yefGh3IzzdUm7EAYrlPVTB6MIOu0maT7/view?usp=sharing"
         tagline: "&lt;KAIST CS376: Machine Learning&gt;"
         details: |
           This project involves applying StyleGAN at the application level. We took real soccer players' images as inputs and carried out the task of transforming them into images in the style of FIFA online game graphics.
           Throughout this project, I acquired an understanding of GANs and learned techniques for efficient training by freezing each layer of the GAN.
+
+      - title: "Implementing PointNet"
+        link: "https://github.com/HaeChan0305/CS479-Assignment1-PointNet"
+        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
+
+      - title: "Implementing NeRF"
+        link: "https://github.com/HaeChan0305/CS479-Assignment2-NeRF"
+        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
+
+      - title: "Implementing Diffusion"
+        link: "https://github.com/HaeChan0305/CS479-Assignment3-Diffusion"
+        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
+
+      - title: "Implementing Multi-Layer Perceptron (MLP)"
+        link: "https://github.com/HaeChan0305/CS470-Assignment1-MLP"
+        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
+
+      - title: "Implementing Convolutional Neural Networks (CNN)"
+        link: "https://github.com/HaeChan0305/CS470-Assignment2-CNN"
+        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
+
+      - title: "Implementing Markov Decision Process & Dynamic Programming"
+        link: "https://github.com/HaeChan0305/CS470-Assignment3-RL"
+        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
+
+      - title: "Implementing A* algorithm"
+        link: "https://github.com/HaeChan0305/CS470-Assignment5-Astar"
+        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
+        
+      - title: "Implementing PintOS"
+        link: "https://github.com/HaeChan0305/CS330-PintOS"
+        tagline: "&lt;KAIST CS330: Operating Systems and Lab&gt;"
 
 publications:
     title: Publications
@@ -128,27 +164,18 @@ publications:
         authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Dongyeop Kang, Juho Kim
         conference: Under Review
 
-# skills:
-#     title: Skills &amp; Proficiency
+skills:
+    title: Skills &amp; Proficiency
 
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
+    toolset:
+      - name: Python & Pytorch
+        level: 100%
 
-#       - name: Javascript & jQuery
-#         level: 98%
+      - name: C & C++
+        level: 80%
 
-#       - name: Angular
-#         level: 98%
-
-#       - name: HTML5 & CSS
-#         level: 95%
-
-#       - name: Ruby on Rails
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60%
+      - name: Java & Scala & MATLAB
+        level: 70%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
