@@ -96,10 +96,10 @@ projects:
     intro: 
     assignments:
       - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
-        link: "https://github.com/HaeChan0305/MultiDreamer"
+        link: "https://github.com/HaeChan0305/CS479-Project-MultiDreamer"
         tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; (Best Poster Awards)"  
         details: |
-          We addressed the existing issue of synthesizing meshes from single-view images containing multiple objects. 
+          This project addresses the issue of synthesizing meshes from single-view images containing multiple objects. 
           We inferred the relative distances between objects using depth maps image segmentation and stable diffusion inpainting, and based on this, we chose an approach to reassemble each synthesized mesh in a 3D scene.
 
       - title: What is the best LLM Chatbot in South Korea?
@@ -109,6 +109,13 @@ projects:
           The project proposes a new benchmark task for evaluating large language models (LLMs) by demonstrating the correlation between the level of knowledge in LLMs and the degree of bias. 
           We utilize the concept of markedness and statistical methods, Finghtin' Words method, to measure it.
           
+      - title: "Augmentation of Graph Representations with Cycles"
+        link: "https://github.com/HaeChan0305/CS471-Project"
+        tagline: "&lt;KAIST CS471: Graph Machine Learning and Mining&gt;"
+        details: |
+         This project demonstrate message passing GNN models, especially GCN, loses cyclic information theoretically and experimentally.
+         We propose a novel approach using cycle nodes and cycle size dimension, and it performs significantly higher than prioir works.
+      
       - title: "Accurate long-form audio transcription via voice activity detection and forced alignment"
         link: "https://github.com/HaeChan0305/CS470-Project-LongFormAudioASR"
         tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
