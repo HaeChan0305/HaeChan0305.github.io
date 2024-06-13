@@ -44,11 +44,11 @@ career-profile:
       My research and experience have focused on large language models and automatic speech recognition, with topics broadly divided into (1) AI-driven education and (2) AI fairness.
       While working at Ringle, an English-speaking education startup, I spearheaded the planning and development of an AI-driven engine that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners. 
       Recognizing the low performance of automatic speech recognition (ASR) for the second language learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle to conduct related research.
-      I constructed a dataset of non-native English learners’ spontaneous speech and analyzed the reasons behind the low ASR performance for the second language learners. The paper about the research is currently under review for {anonymized}.
+      I constructed a dataset of non-native English learners’ spontaneous speech and analyzed the reasons behind the low ASR performance for the second language learners. The paper about the research has been accepted for INTERSPEECH 2024.
       Furthermore, I conducted a course work project proposing a new evaluation benchmark task by attempting to measure the correlation between the knowledge level of large language models and fairness. 
-      I have also worked on projects such as generating 3D mesh from Single-View Multi-object images, winning the best poster awards, and utilizing Generative Adversarial Network (GAN).
+      I have also worked on projects such as generating 3D mesh from Single-View Multi-object images, winning the best poster awards.
       
-      Currently, I am interested in delving more mathematically into the field of artificial intelligence, especially minority group data augmentation and convex optimization. Therefore, I am taking courses such as <EE326: Introduction to Information Theory and Coding> and <EE531: Statistical Learning Theory>.
+      Currently, I am interested in delving more mathematically into the field of artificial intelligence, especially minority group data augmentation and convex optimization.
 
 education:
     title: Education
