@@ -82,7 +82,7 @@ experiences:
         company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB), Daejeon</a>
         details: |
           Recognizing the low performance of ASR for second language (L2) learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle.
-          I have published a paper about ASR for L2 spontaneous speech as the first author. It is currently under review for {anonymized}.
+          I have published a paper about ASR for L2 spontaneous speech as the first author, which has been accepted for INTERSPEECH 2024.
           Additionally, I filed two patents under the names &lt;L2 Speaker Annotation System&gt; and &lt;Pronunciation Diagnosis and Learning System&gt;.
             - Constructed a dataset consisting of 50.04 hours of audio with fully transcribed transcriptions.
             - Defined new features attributed to ASR errors from L2 speech through linguistic analysis of transcriptions.
@@ -130,35 +130,35 @@ projects:
           This project involves applying StyleGAN at the application level. We took real soccer players' images as inputs and carried out the task of transforming them into images in the style of FIFA online game graphics.
           Throughout this project, I acquired an understanding of GANs and learned techniques for efficient training by freezing each layer of the GAN.
 
-      - title: "Implementing PointNet"
+      - title: "PointNet"
         link: "https://github.com/HaeChan0305/CS479-Assignment1-PointNet"
         tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
 
-      - title: "Implementing NeRF"
+      - title: "NeRF"
         link: "https://github.com/HaeChan0305/CS479-Assignment2-NeRF"
         tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
 
-      - title: "Implementing Diffusion"
+      - title: "Diffusion"
         link: "https://github.com/HaeChan0305/CS479-Assignment3-Diffusion"
         tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
 
-      - title: "Implementing Multi-Layer Perceptron (MLP)"
+      - title: "Multi-Layer Perceptron (MLP)"
         link: "https://github.com/HaeChan0305/CS470-Assignment1-MLP"
         tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
 
-      - title: "Implementing Convolutional Neural Networks (CNN)"
+      - title: "Convolutional Neural Networks (CNN)"
         link: "https://github.com/HaeChan0305/CS470-Assignment2-CNN"
         tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
 
-      - title: "Implementing Markov Decision Process & Dynamic Programming"
+      - title: "Markov Decision Process & Dynamic Programming"
         link: "https://github.com/HaeChan0305/CS470-Assignment3-RL"
         tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
 
-      - title: "Implementing A* algorithm"
+      - title: "A* algorithm"
         link: "https://github.com/HaeChan0305/CS470-Assignment5-Astar"
         tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
         
-      - title: "Implementing PintOS"
+      - title: "PintOS"
         link: "https://github.com/HaeChan0305/CS330-PintOS"
         tagline: "&lt;KAIST CS330: Operating Systems and Lab&gt;"
 
