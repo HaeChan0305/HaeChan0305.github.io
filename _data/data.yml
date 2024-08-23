@@ -167,7 +167,7 @@ publications:
     intro: 
     papers:
       - title: "LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech"
-        link: 
+        link: https://arxiv.org/abs/2407.04280
         authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Dongyeop Kang, Juho Kim
         conference: INTERSPEECH 2024, <b>Shortlist for Best Student Paper Award</b>
 
