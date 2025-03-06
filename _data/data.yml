@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: kim.haechan@kaist.ac.kr
     # phone: 
-    timezone: Daejeon, South Korea
+    timezone: Seoul, South Korea
     # citizenship:
     website: haechan0305.github.io/ #do not add http://
     linkedin: haechan-kim-75427a253
@@ -55,11 +55,15 @@ education:
     info:
       - degree: B.S. in School of Computing
         university: Korea Advanced Institute of Science and Technology (KAIST)
-        time: Mar. 2018 - Present
+        time: Mar. 2018 - Feb. 2025
 
       - degree: B.S. in School of Electrical Engineering
         university: Korea Advanced Institute of Science and Technology (KAIST)
-        time: Mar. 2018 - Present
+        time: Mar. 2018 - Feb. 2025
+
+      - degree: M.S. in Kim Jaechul Graduate School of AI 
+        university: Korea Advanced Institute of Science and Technology (KAIST)
+        time: Feb. 2025 - Present
 
 experiences:
     title: Experiences
