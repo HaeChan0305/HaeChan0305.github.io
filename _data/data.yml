@@ -53,11 +53,11 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: B.E. in School of Computing (Certificate in AI)
+      - degree: B.S. in School of Computing (Certificate in AI)
         university: Korea Advanced Institute of Science and Technology (KAIST)
         time: Mar. 2018 - Feb. 2025
 
-      - degree: B.E. in School of Electrical Engineering
+      - degree: B.S. in School of Electrical Engineering
         university: Korea Advanced Institute of Science and Technology (KAIST)
         time: Mar. 2018 - Feb. 2025
 
@@ -68,7 +68,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Natural Language Processing Engineer
+      - role: Research Engineer
         time: Jul. 2022 - Mar. 2024
         company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
         details: |
@@ -85,7 +85,7 @@ experiences:
         time: Mar. 2023 - Mar. 2024
         company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB), Daejeon</a>
         details: |
-          Recognizing the low performance of ASR for second language (L2) learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle.
+          I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle and advised by <a href="https://scholar.google.com/citations?user=2dDAbMgAAAAJ&hl=ko" target="_blank">Juho Kim</a>.
           I have published a paper, titled 「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」, as the first author, which has been accepted for INTERSPEECH 2024.
           Additionally, I filed two patents under the names 「System for learning English speaking and method thereof」 and 「System for diagnosing and learning pronunciation and method thereof」.
             - Constructed a dataset consisting of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
@@ -172,7 +172,7 @@ publications:
     papers:
       - title: "LearnerVoice A Dataset of Non-Native English Learners’ Spontaneous Speech"
         link: https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.html
-        authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Dongyeop Kang, Juho Kim
+        authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim
         conference: INTERSPEECH 2024, <b>Shortlisted for ISCA Best Student Paper Award 2024</b>
 
 skills:
