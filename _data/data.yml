@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Haechan Kim
-    tagline: Researcher / Engineer
+    tagline: M.S student at Graduate School of AI, Korea Advanced Institute of Science and Technology (KAIST)
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -83,8 +83,8 @@ experiences:
           I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle, under the supervision of Prof.<a href="https://scholar.google.com/citations?user=2dDAbMgAAAAJ&hl=ko" target="_blank">Juho Kim</a>.
           I have published a paper, titled <i>「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」</i>, as the first author, which has been accepted for INTERSPEECH 2024.
           Additionally, I filed two patents: <i>“System for Learning English Speaking and Method Thereof”</i> and <i>“System for Diagnosing and Learning Pronunciation and Method Thereof”</i>.
-            - Constructed a dataset of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
-            - Defined new features related to ASR errors in L2 speech through linguistic analysis of transcriptions.
+            - Constructed a dataset of L2 learners' spontaneous speech with fully transcribed transcriptions.
+            - Defined new features related to ASR errors in L2 speech through linguistic analysis of transcriptions and human annotation.
             - Improved the performance of state-of-the-art models by fine-tuning them on the constructed dataset.
             - Explored synthesizing non-native speaker-like audio that can mimic the distributions of defined features.
 
@@ -94,7 +94,7 @@ projects:
     assignments:
       - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
         link: "https://github.com/HaeChan0305/CS479-Project-MultiDreamer"
-        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; (Best Poster Awards)"  
+        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; <b>(Best Poster Awards)</b>"  
         details: |
           This project addresses the issue of synthesizing meshes from single-view images containing multiple objects. 
           We inferred the relative distances between objects using depth maps image segmentation and stable diffusion inpainting, and based on this, we chose an approach to reassemble each synthesized mesh in a 3D scene.
