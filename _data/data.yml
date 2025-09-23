@@ -72,7 +72,7 @@ experiences:
         time: Jul. 2022 - Mar. 2024
         company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
         details: |
-          While working at Ringle, an English-speaking education startup, I spearheaded the planning and development of an AI-driven engine, named <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners.
+          While working at Ringle, an English-speaking education startup, I spearheaded the planning, development and deployment of an AI-driven engine, named <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners.
             - Defined features related to the English proficiency of learners.
             - Conducted analysis on both spoken and written language.
             - Analyzed the performance of ASR for non-native English learners.
@@ -86,9 +86,9 @@ experiences:
         company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB), Daejeon</a>
         details: |
           Recognizing the low performance of ASR for second language (L2) learners, I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle.
-          I have published a paper about ASR for L2 spontaneous speech as the first author, which has been accepted for INTERSPEECH 2024.
-          Additionally, I filed two patents under the names &lt;L2 Speaker Annotation System&gt; and &lt;Pronunciation Diagnosis and Learning System&gt;.
-            - Constructed a dataset consisting of 50.04 hours of audio with fully transcribed transcriptions.
+          I have published a paper, titled 「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」, as the first author, which has been accepted for INTERSPEECH 2024.
+          Additionally, I filed two patents under the names 「System for learning English speaking and method thereof」 and 「System for diagnosing and learning pronunciation and method thereof」.
+            - Constructed a dataset consisting of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
             - Defined new features attributed to ASR errors from L2 speech through linguistic analysis of transcriptions.
             - Constructed human annotation experiment to measure newly defined features.
             - Developed the automatic detection system to detect the features.
