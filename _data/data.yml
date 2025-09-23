@@ -41,6 +41,7 @@ career-profile:
     summary: |  
       I am M.S. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.  
 
+      <b>Research Interests</b>
       I have a broad interest in the field of large language models. Recently, my research has focused on improving data efficiency in reinforcement learning and addressing the overthinking problem in LLMs through reinforcement learning.
 
 
@@ -67,13 +68,11 @@ experiences:
         company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
         details: |
           While working at Ringle, an English-speaking education startup, I spearheaded the planning, development and deployment of an AI-driven engine, named <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners.
-            - Defined features related to the English proficiency of learners.
-            - Conducted analysis on both spoken and written language.
-            - Analyzed the performance of ASR for non-native English learners.
-            - Developed sentence structure classification algorithms through part-of-speech (POS) and dependency analysis.
-            - Collected ground truth data for IELTS speaking levels and addressed data imbalance issues through data augmentation.
-            - Conducted feature engineering based on the defined features.
-            - Developed a final prediction model by using the augmented data and the extracted features.
+            - Created a speech dataset tagged with IELTS speaking levels and addressed data imbalance through data augmentation.
+            - Analyzed the causes of low automatic speech recognition (ASR) performance for non-native English learners and resolved them via supervised fine-tuning.
+            - Defined features related to English proficiency and developed algorithms to extract these features from both speech and transcribed text.
+            - Developed and deployed a model to predict IELTS/TOEFL speaking levels based on the extracted features.
+
 
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
@@ -84,10 +83,8 @@ experiences:
           Additionally, I filed two patents under the names 「System for learning English speaking and method thereof」 and 「System for diagnosing and learning pronunciation and method thereof」.
             - Constructed a dataset consisting of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
             - Defined new features attributed to ASR errors from L2 speech through linguistic analysis of transcriptions.
-            - Constructed human annotation experiment to measure newly defined features.
-            - Developed the automatic detection system to detect the features.
             - Improved the performance of state-of-the-art models by fine-tuning with the constructed dataset.
-            - Attempted to synthesize non-native speaker-like audio that can mimic the defined features.
+            - Attempted to synthesize non-native speaker-like audio that can mimic the distributions of defined features.
 
 projects:
     title: Projects
