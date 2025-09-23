@@ -39,10 +39,12 @@ sidebar:
 career-profile:
     title: About Me
     summary: |  
-      I am M.S. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.  
+      I am an M.S. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.  
 
       <b>Research Interests</b>
-      I have a broad interest in the field of large language models. Recently, my research has focused on improving data efficiency in reinforcement learning and addressing the overthinking problem in LLMs through reinforcement learning.
+
+      My research broadly focuses on large language models. Recently, I have concentrated on improving data efficiency in reinforcement learning and addressing the overthinking problem in LLMs through reinforcement learning-based approaches.
+
 
 
 education:
@@ -67,24 +69,24 @@ experiences:
         time: Jul. 2022 - Mar. 2024
         company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
         details: |
-          While working at Ringle, an English-speaking education startup, I spearheaded the planning, development and deployment of an AI-driven engine, named <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, that predicts IELTS/TOEFL speaking scores by analyzing conversations between tutors and learners.
-            - Created a speech dataset tagged with IELTS speaking levels and addressed data imbalance through data augmentation.
-            - Analyzed the causes of low automatic speech recognition (ASR) performance for non-native English learners and resolved them via supervised fine-tuning.
+          While working at Ringle, an English-speaking education startup, I spearheaded the planning, development, and deployment of an AI-driven engine, <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, which predicts IELTS and TOEFL speaking scores by analyzing conversations between tutors and learners.
+            - Created a speech dataset labeled with IELTS speaking levels and addressed data imbalance through data augmentation.
+            - Analyzed the causes of low automatic speech recognition (ASR) performance for non-native English learners and improved it via supervised fine-tuning.
             - Defined features related to English proficiency and developed algorithms to extract these features from both speech and transcribed text.
-            - Developed and deployed a model to predict IELTS/TOEFL speaking levels based on the extracted features.
+            - Developed and deployed a model to predict IELTS and TOEFL speaking levels based on the extracted features.
 
 
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
         company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB), Daejeon</a>
         details: |
-          I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle and advised by <a href="https://scholar.google.com/citations?user=2dDAbMgAAAAJ&hl=ko" target="_blank">Juho Kim</a>.
-          I have published a paper, titled 「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」, as the first author, which has been accepted for INTERSPEECH 2024.
-          Additionally, I filed two patents under the names 「System for learning English speaking and method thereof」 and 「System for diagnosing and learning pronunciation and method thereof」.
-            - Constructed a dataset consisting of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
-            - Defined new features attributed to ASR errors from L2 speech through linguistic analysis of transcriptions.
-            - Improved the performance of state-of-the-art models by fine-tuning with the constructed dataset.
-            - Attempted to synthesize non-native speaker-like audio that can mimic the distributions of defined features.
+          I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle, under the supervision of Prof.<a href="https://scholar.google.com/citations?user=2dDAbMgAAAAJ&hl=ko" target="_blank">Juho Kim</a>.
+          I have published a paper, titled <i>「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」</i>, as the first author, which has been accepted for INTERSPEECH 2024.
+          Additionally, I filed two patents: <i>“System for Learning English Speaking and Method Thereof”</i> and <i>“System for Diagnosing and Learning Pronunciation and Method Thereof”</i>.
+            - Constructed a dataset of 50.04 hours of L2 learners' spontaneous speech with fully transcribed transcriptions.
+            - Defined new features related to ASR errors in L2 speech through linguistic analysis of transcriptions.
+            - Improved the performance of state-of-the-art models by fine-tuning them on the constructed dataset.
+            - Explored synthesizing non-native speaker-like audio that can mimic the distributions of defined features.
 
 projects:
     title: Projects
