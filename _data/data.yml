@@ -41,8 +41,6 @@ career-profile:
     summary: |  
       I am an M.S. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.  
 
-      <b>Research Interests</b>
-
       My research broadly focuses on large language models. Recently, I have concentrated on improving data efficiency in reinforcement learning and addressing the overthinking problem in LLMs through reinforcement learning-based approaches.
 
 
