@@ -92,6 +92,12 @@ projects:
     title: Projects
     intro: 
     assignments:
+      - title: "A.X K1: Unifying Non-thinking and Thinking Modes"
+        details: |
+          KRAFTON developed a technique for integrating Non-thinking and Thinking modes into a single model through A.X K1. Non-thinking mode provides fast responses, while Thinking mode supports deeper reasoning. To enable this, we designed a chat template that separates the two modes and experimented with diverse data recipes. In particular, training paired responses for the same question in both modes proved effective. This approach encourages the model to determine its reasoning mode solely from the think token, rather than relying on the difficulty or wording of the question. This method was used as part of the A.X K1 training recipe.
+
+          <a href="https://arxiv.org/abs/2601.09200" target="_blank">Report</a> | <a href="https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA" target="_blank">Blog</a>
+
       - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
         link: "https://github.com/HaeChan0305/CS479-Project-MultiDreamer"
         tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; <b>(Best Poster Awards)</b>"  
@@ -163,6 +169,26 @@ publications:
     title: Publications
     intro: 
     papers:
+      - title: "Pruning and Distilling Mixture-of-Experts into Dense Language Models"
+        link: https://arxiv.org/abs/2605.28207
+        authors: Junhyuck Kim, Jihun Yun, <b>Haechan Kim</b>, Gyeongman Kim, Joonghyun Bae, Jaewoong Cho
+        conference: Preprint
+
+      - title: "KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs"
+        link: https://arxiv.org/abs/2605.27984
+        authors: <b>Haechan Kim</b>, Seungjun Chung, Inkyu Park, Jihoo Lee, Jonghyun Lee
+        conference: Preprint
+
+      - title: "Raon-Speech Technical Report"
+        link: https://arxiv.org/abs/2605.23912
+        authors: Beomsoo Kim, Changho Choi, Dohyun Kim, Dongki Lee, Ethan Ewer, Eunchong Kim, Gyeongman Kim, <b>Haechan Kim</b>, Hyeonghwan Kim, Inkyu Park, Jihun Yun, Jihwan Moon, Jiyun Kim, Joonghyun Bae, Junhyuck Kim, Minkyu Kim, Sehun Lee, Seungjun Chung, Sungwoo Cho, Dongmin Park, Dongwon Kim, Hara Kang, Jonghyun Lee, Keon Lee, Kangwook Lee, Jaewoong Cho
+        conference: Technical Report
+
+      - title: "Discounted Beta-Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards"
+        link: https://arxiv.org/abs/2603.18444
+        authors: <b>Haechan Kim</b>, Soohyun Ryu, Gyouk Chu, Doohyuk Jang, Eunho Yang
+        conference: ICML 2026
+
       - title: "LearnerVoice A Dataset of Non-Native English Learners’ Spontaneous Speech"
         link: https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.html
         authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim
