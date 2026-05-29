@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include career-profile.html %}
+
 {% include publications.html %}
 
 {% include experiences.html %}
@@ -9,8 +11,6 @@ layout: default
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
-
-{% include career-profile.html %}
 
 {% include certifications.html %}
 
