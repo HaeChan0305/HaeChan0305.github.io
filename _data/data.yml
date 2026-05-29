@@ -69,7 +69,7 @@ experiences:
         time: Nov. 2025 - Jun. 2026
         company: <a href="https://www.krafton.com/" target="_blank">KRAFTON, AI Research Div., Seoul</a>
         details: |
-          I developed <a href="https://huggingface.co/KRAFTON/Raon-Speech-9B" target="_blank">Raon-Speech-9B</a> and <a href="https://huggingface.co/KRAFTON/Raon-SpeechChat-9B" target="_blank">Raon-SpeechChat-9B</a>, contributing especially to model probing and evaluation. I also conducted research on agentic reinforcement learning and evaluation harnesses, and investigated model merging methods.
+          I developed <a href="https://huggingface.co/KRAFTON/Raon-Speech-9B" target="_blank">Raon-Speech-9B</a> and <a href="https://huggingface.co/KRAFTON/Raon-SpeechChat-9B" target="_blank">Raon-SpeechChat-9B</a>, contributing especially to model probing and evaluation. I also conducted research on agentic reinforcement learning and harnesses, and investigated MoE merging and pruning methods.
 
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
