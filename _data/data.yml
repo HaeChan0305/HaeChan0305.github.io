@@ -70,13 +70,15 @@ experiences:
         company: <a href="https://www.krafton.com/" target="_blank">KRAFTON</a>
         department: AI Research Div.
         location: Seoul
+        advisor: <a href="https://kangwooklee.com/" target="_blank">Kangwook Lee</a>
         details: |
           I developed <a href="https://huggingface.co/KRAFTON/Raon-Speech-9B" target="_blank">Raon-Speech-9B</a> and <a href="https://huggingface.co/KRAFTON/Raon-SpeechChat-9B" target="_blank">Raon-SpeechChat-9B</a>, contributing especially to model probing and evaluation. I also conducted research on agentic reinforcement learning and harnesses, and investigated MoE merging and pruning methods.
 
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
-        company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab (KIXLAB)</a>
+        company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab</a>
         location: Daejeon
+        advisor: <a href="https://juhokim.com/" target="_blank">Juho Kim</a>
         details: |
           I published a paper titled <i>「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」</i>, accepted to INTERSPEECH 2024.
           Additionally, I filed two patents: <i>“System for Learning English Speaking and Method Thereof”</i> and <i>“System for Diagnosing and Learning Pronunciation and Method Thereof”</i>.
@@ -99,73 +101,6 @@ projects:
           KRAFTON developed A.X K1 to integrate Non-thinking and Thinking modes into a single model, enabling either fast responses or deeper reasoning through a mode-specific chat template. We explored multiple data recipes and found paired training on the same prompts effective for making the model follow the think token rather than surface-level prompt cues. This recipe was incorporated into A.X K1 training.
 
           <a href="https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA" target="_blank">Blog</a>
-
-      - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
-        link: "https://github.com/HaeChan0305/CS479-Project-MultiDreamer"
-        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt; <b>(Best Poster Awards)</b>"  
-        details: |
-          This project addresses the issue of synthesizing meshes from single-view images containing multiple objects. 
-          We inferred the relative distances between objects using depth maps image segmentation and stable diffusion inpainting, and based on this, we chose an approach to reassemble each synthesized mesh in a 3D scene.
-
-      - title: What is the best LLM Chatbot in South Korea?
-        link: "https://github.com/KAIST19/CS475_final_project"
-        tagline: "&lt;KAIST CS475: Machine Learning for Natural Language Processing&gt;"
-        details: |
-          The project proposes a new benchmark task for evaluating large language models (LLMs) by demonstrating the correlation between the level of knowledge in LLMs and the degree of bias. 
-          We utilize the concept of markedness and statistical methods, Finghtin' Words method, to measure it.
-          
-      - title: "Augmentation of Graph Representations with Cycles"
-        link: "https://github.com/HaeChan0305/CS471-Project"
-        tagline: "&lt;KAIST CS471: Graph Machine Learning and Mining&gt;"
-        details: |
-         This project demonstrate message passing GNN models, especially GCN, loses cyclic information theoretically and experimentally.
-         We propose a novel approach using cycle nodes and cycle size dimension, and it performs significantly higher than prioir works.
-      
-      - title: "Accurate long-form audio transcription via voice activity detection and forced alignment"
-        link: "https://github.com/HaeChan0305/CS470-Project-LongFormAudioASR"
-        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
-        details: |
-         This project addresses the issue of low performance in automatic speech recognition (ASR) for long-form spontaneous speech. 
-         By employing force alignment, we identified the positions of silence and filler words in the original audio and either removed them or replaced them with shorter silences, resulting in a 56% improvement in ASR performance.
-      
-      - title: "Turn Over a New Leaf : Face Image Style Transition for FIFA Player"
-        link: "https://drive.google.com/file/d/1yefGh3IzzdUm7EAYrlPVTB6MIOu0maT7/view?usp=sharing"
-        tagline: "&lt;KAIST CS376: Machine Learning&gt;"
-        details: |
-          This project involves applying StyleGAN at the application level. We took real soccer players' images as inputs and carried out the task of transforming them into images in the style of FIFA online game graphics.
-          Throughout this project, I acquired an understanding of GANs and learned techniques for efficient training by freezing each layer of the GAN.
-
-      - title: "PointNet"
-        link: "https://github.com/HaeChan0305/CS479-Assignment1-PointNet"
-        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
-
-      - title: "NeRF"
-        link: "https://github.com/HaeChan0305/CS479-Assignment2-NeRF"
-        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
-
-      - title: "Diffusion"
-        link: "https://github.com/HaeChan0305/CS479-Assignment3-Diffusion"
-        tagline: "&lt;KAIST CS479: Machine Learning for 3D Data&gt;"
-
-      - title: "Multi-Layer Perceptron (MLP)"
-        link: "https://github.com/HaeChan0305/CS470-Assignment1-MLP"
-        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
-
-      - title: "Convolutional Neural Networks (CNN)"
-        link: "https://github.com/HaeChan0305/CS470-Assignment2-CNN"
-        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
-
-      - title: "Markov Decision Process & Dynamic Programming"
-        link: "https://github.com/HaeChan0305/CS470-Assignment3-RL"
-        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
-
-      - title: "A* algorithm"
-        link: "https://github.com/HaeChan0305/CS470-Assignment5-Astar"
-        tagline: "&lt;KAIST CS470: Introduction to Artificial Intelligence&gt;"
-        
-      - title: "PintOS"
-        link: "https://github.com/HaeChan0305/CS330-PintOS"
-        tagline: "&lt;KAIST CS330: Operating Systems and Lab&gt;"
 
 publications:
     title: Publications
