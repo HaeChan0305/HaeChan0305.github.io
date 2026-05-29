@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Haechan Kim
-    tagline: M.S student at Graduate School of AI, Korea Advanced Institute of Science and Technology (KAIST)
+    tagline: Ph.D. candidate at Graduate School of AI, Korea Advanced Institute of Science and Technology (KAIST)
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -41,9 +41,9 @@ sidebar:
 career-profile:
     title: About Me
     summary: |  
-      I am an M.S. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.  
+      I am a Ph.D. candidate at <a href="https://mli.kaist.ac.kr/" target="_blank">Machine Learning and Intelligence Lab</a> (MLILAB) in Korea Advanced Institute of Science and Technology (KAIST), advised by Prof.<a href="https://scholar.google.com/citations?user=UWO1mloAAAAJ&hl=ko&oi=ao" target="_blank">Eunho Yang</a>.
 
-      My research broadly focuses on large language models. Recently, I have concentrated on improving data efficiency in reinforcement learning and addressing the overthinking problem in LLMs through reinforcement learning-based approaches.
+      My research broadly focuses on large language models, with particular interests in reinforcement learning with verifiable rewards and agentic reinforcement learning.
 
 
 
@@ -91,10 +91,11 @@ projects:
     intro: 
     assignments:
       - title: "A.X K1: Unifying Non-thinking and Thinking Modes"
+        link: "https://arxiv.org/abs/2601.09200"
         details: |
-          KRAFTON developed a technique for integrating Non-thinking and Thinking modes into a single model through A.X K1. Non-thinking mode provides fast responses, while Thinking mode supports deeper reasoning. To enable this, we designed a chat template that separates the two modes and experimented with diverse data recipes. In particular, training paired responses for the same question in both modes proved effective. This approach encourages the model to determine its reasoning mode solely from the think token, rather than relying on the difficulty or wording of the question. This method was used as part of the A.X K1 training recipe.
+          KRAFTON developed A.X K1 to integrate Non-thinking and Thinking modes into a single model, enabling either fast responses or deeper reasoning through a mode-specific chat template. We explored multiple data recipes and found paired training on the same prompts effective for making the model follow the think token rather than surface-level prompt cues. This recipe was incorporated into A.X K1 training.
 
-          <a href="https://arxiv.org/abs/2601.09200" target="_blank">Report</a> | <a href="https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA" target="_blank">Blog</a>
+          <a href="https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA" target="_blank">Blog</a>
 
       - title: "MultiDreamer: Generating 3D mesh from a Single-view Multi-object Image"
         link: "https://github.com/HaeChan0305/CS479-Project-MultiDreamer"
