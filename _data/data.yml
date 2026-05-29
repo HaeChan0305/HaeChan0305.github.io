@@ -69,7 +69,7 @@ experiences:
         time: Nov. 2025 - Jun. 2026
         company: <a href="https://www.krafton.com/" target="_blank">KRAFTON</a>
         department: AI Research Div.
-        location: Seoul
+        location: Seoul, South Korea
         advisor: <a href="https://kangwooklee.com/" target="_blank">Kangwook Lee</a>
         details: |
           I developed <a href="https://huggingface.co/KRAFTON/Raon-Speech-9B" target="_blank">Raon-Speech-9B</a> and <a href="https://huggingface.co/KRAFTON/Raon-SpeechChat-9B" target="_blank">Raon-SpeechChat-9B</a>, contributing especially to model probing and evaluation. I also conducted research on agentic reinforcement learning and harnesses, and investigated MoE merging and pruning methods.
@@ -77,7 +77,7 @@ experiences:
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
         company: <a href="https://www.kixlab.org/" target="_blank">KAIST Interaction Lab</a>
-        location: Daejeon
+        location: Daejeon, South Korea
         advisor: <a href="https://juhokim.com/" target="_blank">Juho Kim</a>
         details: |
           I published a paper titled <i>「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」</i>, accepted to INTERSPEECH 2024.
@@ -86,7 +86,7 @@ experiences:
       - role: Research Engineer
         time: Jul. 2022 - Mar. 2024
         company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle</a>
-        location: Seoul
+        location: Seoul, South Korea
         details: |
           I spearheaded the planning, development, and deployment of an AI-driven engine, <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, which predicts IELTS and TOEFL speaking scores by analyzing conversations between tutors and learners.
 

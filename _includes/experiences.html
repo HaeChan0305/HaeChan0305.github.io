@@ -20,15 +20,17 @@
       </div><!--//upper-row-->
 
       <div class="company">
-        {% if experience.department %}
-          {{ experience.department }} &middot;
-        {% endif %}
-        {{ experience.role }}
-        {% if experience.location %}
-          &middot; {{ experience.location }}
-        {% endif %}
+        <div class="experience-meta-line">
+          {% if experience.department %}
+            {{ experience.department }} &middot;
+          {% endif %}
+          {{ experience.role }}
+          {% if experience.location %}
+            &middot; {{ experience.location }}
+          {% endif %}
+        </div>
         {% if experience.advisor %}
-          &middot; Advisor: {{ experience.advisor }}
+          <div class="experience-advisor">Advisor: {{ experience.advisor }}</div>
         {% endif %}
       </div>
 
