@@ -11,7 +11,7 @@ url: 'http://webjeda.com'
 description: Resume of Haechan Kim
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
-chrome_mobile_color: #152033
+chrome_mobile_color: "#152033"
 
 # Tracker
 analytics: UA-83979019-1
