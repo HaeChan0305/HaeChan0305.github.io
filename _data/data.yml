@@ -65,16 +65,11 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Research Engineer
-        time: Jul. 2022 - Mar. 2024
-        company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
+      - role: Research Intern
+        time: Nov. 2025 - Jun. 2026
+        company: <a href="https://www.krafton.com/" target="_blank">KRAFTON, AI Research Div., Seoul</a>
         details: |
-          While working at Ringle, an English-speaking education startup, I spearheaded the planning, development, and deployment of an AI-driven engine, <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, which predicts IELTS and TOEFL speaking scores by analyzing conversations between tutors and learners.
-            - Created a speech dataset labeled with IELTS speaking levels and addressed data imbalance through data augmentation.
-            - Analyzed the causes of low automatic speech recognition (ASR) performance for non-native English learners and improved it via supervised fine-tuning.
-            - Defined features related to English proficiency and developed algorithms to extract these features from both speech and transcribed text.
-            - Developed and deployed a model to predict IELTS and TOEFL speaking levels based on the extracted features.
-
+          I developed <a href="https://huggingface.co/KRAFTON/Raon-Speech-9B" target="_blank">Raon-Speech-9B</a> and <a href="https://huggingface.co/KRAFTON/Raon-SpeechChat-9B" target="_blank">Raon-SpeechChat-9B</a>, contributing especially to model probing and evaluation. I also conducted research on agentic reinforcement learning and evaluation harnesses, and investigated model merging methods.
 
       - role: Visiting Researcher
         time: Mar. 2023 - Mar. 2024
@@ -83,10 +78,13 @@ experiences:
           I was dispatched to KAIST Interaction Lab (KIXLAB) as a visiting researcher affiliated with Ringle, under the supervision of Prof.<a href="https://scholar.google.com/citations?user=2dDAbMgAAAAJ&hl=ko" target="_blank">Juho Kim</a>.
           I have published a paper, titled <i>「LearnerVoice: A Dataset of Non-Native English Learners’ Spontaneous Speech」</i>, as the first author, which has been accepted for INTERSPEECH 2024.
           Additionally, I filed two patents: <i>“System for Learning English Speaking and Method Thereof”</i> and <i>“System for Diagnosing and Learning Pronunciation and Method Thereof”</i>.
-            - Constructed a dataset of L2 learners' spontaneous speech with fully transcribed transcriptions.
-            - Defined new features related to ASR errors in L2 speech through linguistic analysis of transcriptions and human annotation.
-            - Improved the performance of state-of-the-art models by fine-tuning them on the constructed dataset.
-            - Explored synthesizing non-native speaker-like audio that can mimic the distributions of defined features.
+
+      - role: Research Engineer
+        time: Jul. 2022 - Mar. 2024
+        company: <a href="https://www.ringleplus.com/ko/student/landing/home" target="_blank">Ringle, Seoul</a>
+        details: |
+          While working at Ringle, an English-speaking education startup, I spearheaded the planning, development, and deployment of an AI-driven engine, <a href="https://www.ringleplus.com/ko/student/landing/blog/caf-analysis-about" target="_blank">CAF</a>, which predicts IELTS and TOEFL speaking scores by analyzing conversations between tutors and learners.
+
 
 projects:
     title: Projects
