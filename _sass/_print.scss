@@ -1,45 +1,114 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+  body {
+    padding: 0;
+    background: #ffffff !important;
+    color: #000000;
+    font-size: 10pt;
+  }
 
-    .remove-container.container-block {
-       display: none;
-    }
+  a {
+    color: #000000 !important;
+    border-bottom: 0 !important;
+  }
 
-    footer {
-       display: none;
-    }
+  .wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 34%;
+    gap: 12mm;
+    max-width: none;
+  }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
+  .main-wrapper,
+  .sidebar-wrapper {
+    position: static;
+    background: #ffffff !important;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000000 !important;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+  .sidebar-wrapper {
+    border-left: 1px solid #d8d8d8;
+    padding-left: 8mm;
+  }
 
+  .sidebar-wrapper .profile-container,
+  .sidebar-wrapper .container-block {
+    padding: 0 0 6mm;
+    border-color: #d8d8d8;
+  }
+
+  .sidebar-wrapper .name,
+  .sidebar-wrapper .degree,
+  .sidebar-wrapper .container-block-title,
+  .sidebar-wrapper a {
+    color: #000000 !important;
+  }
+
+  .sidebar-wrapper .tagline,
+  .sidebar-wrapper .meta,
+  .sidebar-wrapper .time,
+  .sidebar-wrapper .contact-list li,
+  .sidebar-wrapper .contact-list .fas,
+  .sidebar-wrapper .contact-list .fab,
+  .sidebar-wrapper .contact-list .far {
+    color: #333333 !important;
+  }
+
+  img.avatar {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    box-shadow: none !important;
+  }
+
+  .main-wrapper .summary-section {
+    margin: 0 0 8mm;
+    padding: 0 0 7mm;
+    background: #ffffff !important;
+  }
+
+  .main-wrapper .section {
+    margin-bottom: 8mm;
+    break-inside: avoid;
+  }
+
+  .main-wrapper .experiences-section .item,
+  .main-wrapper .educations-section .item,
+  .main-wrapper .projects-section .item,
+  .main-wrapper .publications-section .item {
+    padding: 0 0 4mm;
+    background: #ffffff !important;
+    border-width: 0 0 1px;
+    border-color: #d8d8d8;
+    border-radius: 0;
+    break-inside: avoid;
+  }
+
+  .main-wrapper .time,
+  .main-wrapper .cert-url,
+  .skillset .level-bar-inner {
+    background: #000000 !important;
+    border-color: #000000 !important;
+    color: #ffffff !important;
+  }
+
+  .fa-inverse,
+  .fa-inverse:after,
+  .fa-inverse:before {
+    color: #000000 !important;
+  }
+
+  .remove-container.container-block,
+  footer {
+    display: none;
+  }
 }
