@@ -335,12 +335,13 @@ li + li {
   }
 
   .summary-section {
-    margin: -56px -56px 52px;
-    padding: 52px 56px 46px;
+    margin: 0 0 52px;
+    padding: 34px 36px;
     background:
       linear-gradient(135deg, rgba(31, 111, 120, 0.12), rgba(199, 101, 61, 0.09)),
       $surface-soft;
-    border-bottom: 1px solid rgba(23, 32, 51, 0.08);
+    border: 1px solid rgba(23, 32, 51, 0.08);
+    border-radius: 8px;
   }
 
   .summary-section .section-title {

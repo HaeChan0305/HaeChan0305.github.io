@@ -15,11 +15,19 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h3 class="job-title">{{ experience.company }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <div class="company">
+        {% if experience.department %}
+          {{ experience.department }} &middot;
+        {% endif %}
+        {{ experience.role }}
+        {% if experience.location %}
+          &middot; {{ experience.location }}
+        {% endif %}
+      </div>
 
     </div><!--//meta-->
 
@@ -34,4 +42,3 @@
 
 </section><!--//section-->
 {% endif %}
-
