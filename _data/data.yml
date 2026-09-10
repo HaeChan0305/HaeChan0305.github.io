@@ -141,7 +141,7 @@ publications:
 
       - title: "Raon-Speech Technical Report"
         authors: Beomsoo Kim, Changho Choi, Dohyun Kim, Dongki Lee, Ethan Ewer, Eunchong Kim, Gyeongman Kim, <b>Haechan Kim</b>, Hyeonghwan Kim, Inkyu Park, Jihun Yun, Jihwan Moon, Jiyun Kim, Joonghyun Bae, Junhyuck Kim, Minkyu Kim, Sehun Lee, Seungjun Chung, Sungwoo Cho, Dongmin Park, Dongwon Kim, Hara Kang, Jonghyun Lee, Keon Lee, Kangwook Lee, Jaewoong Cho
-        conference: Technical Report
+        conference: Preprint
         links:
           - label: Paper
             url: https://arxiv.org/abs/2605.23912
