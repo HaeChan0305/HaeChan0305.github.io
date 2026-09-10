@@ -129,7 +129,7 @@ publications:
 
       - title: "KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs"
         authors: <b>Haechan Kim</b>, Seungjun Chung, Inkyu Park, Jihoo Lee, Jonghyun Lee
-        conference: EMNLP 2026 Findings
+        conference: Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026 (findings)
         links:
           - label: Paper
             url: https://arxiv.org/abs/2605.27984
@@ -157,14 +157,14 @@ publications:
 
       - title: "Discounted Beta-Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards"
         authors: <b>Haechan Kim</b>, Soohyun Ryu, Gyouk Chu, Doohyuk Jang, Eunho Yang
-        conference: ICML 2026
+        conference: International Conference on Machine Learning (ICML), 2026
         links:
           - label: Paper
             url: https://arxiv.org/abs/2603.18444
 
       - title: "LearnerVoice A Dataset of Non-Native English Learners’ Spontaneous Speech"
         authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim
-        conference: INTERSPEECH 2024, <b>Shortlisted for ISCA Best Student Paper Award 2024</b>
+        conference: Annual Conference of the International Speech Communication Association (INTERSPEECH), 2024, <b>Shortlisted for ISCA Best Student Paper Award 2024</b>
         links:
           - label: Paper
             url: https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.html
