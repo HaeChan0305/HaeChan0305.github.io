@@ -147,6 +147,12 @@ publications:
         links:
           - label: Paper
             url: https://arxiv.org/abs/2605.23912
+          - label: Raon-Speech-9B
+            icon: fas fa-robot
+            url: https://huggingface.co/KRAFTON/Raon-Speech-9B
+          - label: Raon-SpeechChat-9B
+            icon: fas fa-robot
+            url: https://huggingface.co/KRAFTON/Raon-SpeechChat-9B
 
       - title: "Discounted Beta-Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards"
         authors: <b>Haechan Kim</b>, Soohyun Ryu, Gyouk Chu, Doohyuk Jang, Eunho Yang
