@@ -96,11 +96,13 @@ projects:
     intro: 
     assignments:
       - title: "A.X K1: Unifying Non-thinking and Thinking Modes"
-        link: "https://arxiv.org/abs/2601.09200"
         details: |
           KRAFTON developed A.X K1 to integrate Non-thinking and Thinking modes into a single model, enabling either fast responses or deeper reasoning through a mode-specific chat template. We explored multiple data recipes and found paired training on the same prompts effective for making the model follow the think token rather than surface-level prompt cues. This recipe was incorporated into A.X K1 training.
-
-          <a href="https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA" target="_blank">Blog</a>
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2601.09200
+          - label: Tech Blog
+            url: https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA
 
 publications:
     title: Publications

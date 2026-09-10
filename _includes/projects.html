@@ -37,6 +37,12 @@
       </div><!--//details-->
       {% endif %}
 
+      {% if project.links %}
+      <div class="publication-links">
+        {% include link-badges.html links=project.links %}
+      </div>
+      {% endif %}
+
     </div><!--//item-->
   {% endfor %}
 

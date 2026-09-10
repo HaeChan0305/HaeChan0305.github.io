@@ -20,21 +20,14 @@
   <div class="item">
     <div class="publication-title">{{ publication.title }}</div>
     <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-    {% if publication.links %}
-    <div class="publication-links">
-      {% for link in publication.links %}
-      {% case link.label %}
-        {% when 'Paper' %}{% assign badge_icon = 'fas fa-file-alt' %}
-        {% when 'Code' %}{% assign badge_icon = 'fab fa-github' %}
-        {% when 'Tech Blog' %}{% assign badge_icon = 'fas fa-blog' %}
-        {% when 'Blog' %}{% assign badge_icon = 'fas fa-blog' %}
-        {% else %}{% assign badge_icon = 'fas fa-database' %}
-      {% endcase %}
-      <a class="publication-badge" href="{{ link.url }}" target="_blank" rel="noopener"><i class="{{ link.icon | default: badge_icon }}"></i>{{ link.label }}</a>
-      {% endfor %}
+    <div class="publication-conference">
+      <span>{{ publication.conference }}</span>
+      {% if publication.links %}
+      <span class="publication-links">
+        {% include link-badges.html links=publication.links %}
+      </span>
+      {% endif %}
     </div>
-    {% endif %}
   </div><!--//item-->
   {% endfor %}
 

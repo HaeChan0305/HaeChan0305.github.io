@@ -1,0 +1,10 @@
+{% for link in include.links %}
+{% case link.label %}
+  {% when 'Paper' %}{% assign badge_icon = 'fas fa-file-alt' %}
+  {% when 'Code' %}{% assign badge_icon = 'fab fa-github' %}
+  {% when 'Tech Blog' %}{% assign badge_icon = 'fas fa-blog' %}
+  {% when 'Blog' %}{% assign badge_icon = 'fas fa-blog' %}
+  {% else %}{% assign badge_icon = 'fas fa-database' %}
+{% endcase %}
+<a class="publication-badge" href="{{ link.url }}" target="_blank" rel="noopener"><i class="{{ link.icon | default: badge_icon }}"></i>{{ link.label }}</a>
+{% endfor %}

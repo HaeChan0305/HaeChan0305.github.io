@@ -496,14 +496,23 @@ li + li {
   }
 
   .publication-conference {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
     color: $ink-soft;
     font-weight: 600;
   }
 
   .publication-links {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 8px;
+  }
+
+  .projects-section .publication-links {
+    display: flex;
     margin-top: 12px;
   }
 
