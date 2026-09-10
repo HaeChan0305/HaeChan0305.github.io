@@ -66,7 +66,7 @@ experiences:
     title: Work Experiences
     info:
       - role: Research Intern
-        time: Nov. 2025 - Jun. 2026
+        time: Nov. 2025 - Aug. 2026
         company: <a href="https://www.krafton.com/" target="_blank">KRAFTON</a>
         department: AI Research Div.
         location: Seoul, South Korea
@@ -106,30 +106,59 @@ publications:
     title: Publications
     intro: 
     papers:
+      - title: "WHALE: A Simple Recipe for Joint Harness-Weight Optimization"
+        authors: <b>Haechan Kim</b>, Yoonho Lee, Gisang Lee, Chelsea Finn, Kangwook Lee
+        conference: Preprint
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2609.00196
+          - label: Code
+            url: https://github.com/krafton-ai/WHALE
+          - label: Tech Blog
+            url: https://krafton-ai.github.io/blog/whale/
+
       - title: "Pruning and Distilling Mixture-of-Experts into Dense Language Models"
-        link: https://arxiv.org/abs/2605.28207
         authors: Junhyuck Kim, Jihun Yun, <b>Haechan Kim</b>, Gyeongman Kim, Joonghyun Bae, Jaewoong Cho
         conference: Preprint
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2605.28207
 
       - title: "KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs"
-        link: https://arxiv.org/abs/2605.27984
         authors: <b>Haechan Kim</b>, Seungjun Chung, Inkyu Park, Jihoo Lee, Jonghyun Lee
-        conference: Preprint
+        conference: EMNLP 2026 Findings
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2605.27984
+          - label: Code
+            url: https://github.com/krafton-ai/Raon-Eval
+          - label: KVoiceBench
+            url: https://huggingface.co/datasets/KRAFTON/KVoiceBench
+          - label: KOpenAudioBench
+            url: https://huggingface.co/datasets/KRAFTON/KOpenAudioBench
+          - label: KMMAU
+            url: https://huggingface.co/datasets/KRAFTON/KMMAU
 
       - title: "Raon-Speech Technical Report"
-        link: https://arxiv.org/abs/2605.23912
         authors: Beomsoo Kim, Changho Choi, Dohyun Kim, Dongki Lee, Ethan Ewer, Eunchong Kim, Gyeongman Kim, <b>Haechan Kim</b>, Hyeonghwan Kim, Inkyu Park, Jihun Yun, Jihwan Moon, Jiyun Kim, Joonghyun Bae, Junhyuck Kim, Minkyu Kim, Sehun Lee, Seungjun Chung, Sungwoo Cho, Dongmin Park, Dongwon Kim, Hara Kang, Jonghyun Lee, Keon Lee, Kangwook Lee, Jaewoong Cho
         conference: Technical Report
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2605.23912
 
       - title: "Discounted Beta-Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards"
-        link: https://arxiv.org/abs/2603.18444
         authors: <b>Haechan Kim</b>, Soohyun Ryu, Gyouk Chu, Doohyuk Jang, Eunho Yang
         conference: ICML 2026
+        links:
+          - label: Paper
+            url: https://arxiv.org/abs/2603.18444
 
       - title: "LearnerVoice A Dataset of Non-Native English Learners’ Spontaneous Speech"
-        link: https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.html
         authors: <b>Haechan Kim</b>, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim
         conference: INTERSPEECH 2024, <b>Shortlisted for ISCA Best Student Paper Award 2024</b>
+        links:
+          - label: Paper
+            url: https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.html
 
 skills:
     title: Skills &amp; Proficiency
