@@ -122,7 +122,7 @@ publications:
 
       - title: "Pruning and Distilling Mixture-of-Experts into Dense Language Models"
         authors: Junhyuck Kim, Jihun Yun, <b>Haechan Kim</b>, Gyeongman Kim, Joonghyun Bae, Jaewoong Cho
-        conference: Preprint
+        conference: Conference on Neural Information Processing Systems (NeurIPS), 2026 (oral)
         links:
           - label: Paper
             url: https://arxiv.org/abs/2605.28207
